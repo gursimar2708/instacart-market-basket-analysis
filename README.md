@@ -1,16 +1,14 @@
 # Instacart Customer Behavior Analysis
 
-This is my second portfolio project. After the churn analysis in 
-Python, I wanted to work with something closer to how data actually 
-exists in real companies: spread across multiple related tables, 
-requiring real SQL joins to answer anything useful. A single flat 
-CSV is a good learning exercise but it doesn't reflect what most 
-analyst jobs actually look like day to day.
+This is my second portfolio project. I wanted to work with a 
+proper relational database with multiple connected tables since 
+that's much closer to how data actually lives in real companies 
+compared to a single flat CSV file.
 
 ## The Problem
 
 Instacart is a grocery delivery platform. Like any repeat purchase 
-business, understanding customer behavior matters: when do people 
+business, Instacart wants to understand when do people 
 shop, what do they buy, and which products bring them back? Getting 
 those answers right means better recommendations, smarter inventory 
 decisions, and stronger retention.
@@ -27,14 +25,14 @@ two or three tables, which is the point.
 
 ## Tools
 
-SQL via SQLite and DB Browser for SQLite for all analysis and 
-aggregation. Tableau Public for visualization.
+SQL (SQLite + DB Browser for SQLite) for all analysis and 
+aggregation.
 
 ## Process
 
 Loaded all 6 CSV files into a local SQLite database. Before any 
 analysis, ran data quality checks covering referential integrity, 
-duplicate detection, and value range validation. Everything came 
+duplicate detection and value range validation. Everything came 
 back clean, which is worth confirming rather than assuming.
 
 All analysis was done in SQL. Results were exported as CSVs and 
@@ -47,7 +45,7 @@ visualization per insight.
 - Sunday is the single busiest day with 600,905 orders, roughly 
   41% above the weekly average
 - Monday follows closely at 587,478 orders
-- Peak shopping window across all days is 9AM to 2PM, with Sunday 
+- Peak shopping window across all days is 9AM to 4PM, with Sunday 
   and Monday showing the heaviest concentration in that slot
 - Customers order on average every 11.1 days
 
@@ -91,8 +89,7 @@ visualization per insight.
 ## Files in This Repo
 
 `instacart_analysis.sql` contains all SQL queries with comments. 
-The `exports` folder has the 6 CSV files used in Tableau.
-
+The 6 CSV files used as Tableau data sources are included in the repo.
 ## Tableau Story
 
 [View the interactive visualization here](https://public.tableau.com/app/profile/gursimar.kour/viz/InstacartCustomerBehaviorAnalysis_17865314249950/InstacartAnalysis)
