@@ -1,0 +1,22 @@
+department,total_items,total_reordered,reorder_rate_pct
+dairy eggs,217051,146502,67.5
+produce,409087,271886,66.5
+beverages,114046,75060,65.8
+bakery,48394,30692,63.4
+pets,4497,2834,63.0
+deli,44291,27367,61.8
+alcohol,5598,3397,60.7
+meat seafood,30307,17907,59.1
+snacks,118862,69102,58.1
+bulk,1359,786,57.8
+breakfast,29500,16864,57.2
+frozen,100426,56168,55.9
+babies,14941,8084,54.1
+dry goods pasta,38713,18885,48.8
+canned goods,46799,22782,48.7
+household,35986,15372,42.7
+other,1795,697,38.8
+missing,8251,3148,38.2
+international,11902,4522,38.0
+pantry,81242,29498,36.3
+personal care,21570,7271,33.7
