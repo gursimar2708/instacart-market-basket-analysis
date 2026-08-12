@@ -15,7 +15,7 @@ decisions, and stronger retention.
 
 ## The Dataset
 
-[Instacart Market Basket Analysis on Kaggle](https://www.kaggle.com/competitions/instacart-market-basket-analysis)
+[Instacart Market Basket Analysis on Kaggle](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis/data)
 
 6 relational tables covering 3.4 million orders from over 200,000 
 customers, with 32 million order product records and 49,688 unique 
